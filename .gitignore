@@ -1,0 +1,14 @@
+# File di sistema che non servono nel repository
+.DS_Store
+Thumbs.db
+
+# File di configurazione e API keys
+*.env
+config.json
+
+# Evita di includere file non necessari (es: cache)
+*.log
+*.tmp
+
+# File di backup (se generati)
+*.bak
